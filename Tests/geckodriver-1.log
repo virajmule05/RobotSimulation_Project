@@ -1,0 +1,27 @@
+1735570906614	geckodriver	INFO	Listening on 127.0.0.1:53841
+1735570909699	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53842" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofilecHEEGS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735570910281	Marionette	INFO	Marionette enabled
+1735570910462	Marionette	INFO	Listening on port 53865
+WebDriver BiDi listening on ws://127.0.0.1:53842
+Read port: 53865
+1735570910677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53842/devtools/browser/6adc2502-8071-4527-b19d-5ef2ec545230
+JavaScript error: https://webapp.simulationhub.com/1246de8ff99694e40f2cf9c3f12aa53636cf7e40.js, line 91: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1735570917663	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript error: https://accounts.simulationhub.com/da4f89312f17d43bdfa4bb030bea964e48ee9675.js, line 61: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1735570940298	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&l=dataLayer&cx=c&gtm=457e4cc1za200, line 378: Script terminated by timeout at:
+en.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&l=dataLayer&cx=c&gtm=457e4cc1za200:378:19
+eJ/<@https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&l=dataLayer&cx=c&gtm=457e4cc1za200:731:142
+h.Bl/<@https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&l=dataLayer&cx=c&gtm=457e4cc1za200:671:126
+h.Bl/c/<@https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&l=dataLayer&cx=c&gtm=457e4cc1za200:670:418
+
+1735571123313	Marionette	INFO	Stopped listening on port 53865
+Dynamically enable window occlusion 1

@@ -1,0 +1,30 @@
+1735570933150	geckodriver	INFO	Listening on 127.0.0.1:54043
+1735570936201	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54044" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofilewrUaCY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735570936573	Marionette	INFO	Marionette enabled
+1735570936770	Marionette	INFO	Listening on port 54059
+WebDriver BiDi listening on ws://127.0.0.1:54044
+Read port: 54059
+1735570937035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54044/devtools/browser/bbbcddbb-e0dc-498e-9482-79c3603a2221
+JavaScript error: https://webapp.simulationhub.com/1246de8ff99694e40f2cf9c3f12aa53636cf7e40.js, line 91: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1735570966606	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://developer.api.autodesk.com/modelderivative/v2/viewers/viewer3D.min.js?v=v7.89, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://developer.api.autodesk.com/modelderivative/v2/viewers/viewer3D.min.js?v=v7.89, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&cx=c&_slc=1, line 677: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&cx=c&_slc=1:677:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&cx=c&_slc=1:677:87
+h.Bl/c/<@https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&cx=c&_slc=1:677:410
+
+1735571120796	Marionette	INFO	Stopped listening on port 54059
+Dynamically enable window occlusion 1

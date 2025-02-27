@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.1 on win32)" generated="2024-12-31T17:12:42.819850" rpa="false" schemaversion="5">
+<suite id="s1" name="testMain" source="C:\robotFrameworkSimulation\Tests\testMain.robot">
+<test id="s1-t1" name="Validate Surface plots page" line="47">
+<kw name="Open browser for simulation gallary website" owner="Generic" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-12-31T17:12:43.307832" level="INFO">Opening browser 'chrome' to base url 'https://webapp.simulationhub.com/simulation-gallery'.</msg>
+<arg>${url}</arg>
+<arg>${browser_name}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-12-31T17:12:43.307463" elapsed="7.317396"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-12-31T17:12:50.625416" elapsed="0.043832"/>
+</kw>
+<kw name="Set Browser Implicit Wait" owner="SeleniumLibrary">
+<arg>7s</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2024-12-31T17:12:50.670041" elapsed="0.005001"/>
+</kw>
+<status status="PASS" start="2024-12-31T17:12:43.306033" elapsed="7.369355"/>
+</kw>
+<kw name="Open simulation in Surface Plots" owner="SurfacePlotsPage">
+<kw name="Open Autonomous HVAC CFD Simulation Result Page" owner="Generic">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-12-31T17:12:50.680479" level="INFO">Clicking element '(//i[@class='fa fa-angle-right'])[1]'.</msg>
+<msg time="2024-12-31T17:12:52.487211" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-63.png"&gt;&lt;img src="selenium-screenshot-63.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-12-31T17:12:52.487618" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;i class="fa fa-angle-right" style="font-weight: 600;color: black;opacity: 1.0;"&gt;&lt;/i&gt; is not clickable at point (692, 463). Other element would receive the click: &lt;div id="waitWave" class="waitWave" style="top: 0px; left: 0px; height: 100%; width: 1026px;"&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7DD16FB05+28789]
+	(No symbol) [0x00007FF7DD0D86E0]
+	(No symbol) [0x00007FF7DCF7592A]
+	(No symbol) [0x00007FF7DCFD0FDE]
+	(No symbol) [0x00007FF7DCFCEA7C]
+	(No symbol) [0x00007FF7DCFCBC46]
+	(No symbol) [0x00007FF7DCFCABA1]
+	(No symbol) [0x00007FF7DCFBCD60]
+	(No symbol) [0x00007FF7DCFEF43A]
+	(No symbol) [0x00007FF7DCFBC5B6]
+	(No symbol) [0x00007FF7DCFEF650]
+	(No symbol) [0x00007FF7DD00F654]
+	(No symbol) [0x00007FF7DCFEF1E3]
+	(No symbol) [0x00007FF7DCFBA938]
+	(No symbol) [0x00007FF7DCFBBAA1]
+	GetHandleVerifier [0x00007FF7DD4A933D+3410093]
+	GetHandleVerifier [0x00007FF7DD4BE7DD+3497293]
+	GetHandleVerifier [0x00007FF7DD4B2A73+3448803]
+	GetHandleVerifier [0x00007FF7DD237BBB+848171]
+	(No symbol) [0x00007FF7DD0E3C3F]
+	(No symbol) [0x00007FF7DD0DF6E4]
+	(No symbol) [0x00007FF7DD0DF87D]
+	(No symbol) [0x00007FF7DD0CED49]
+	BaseThreadInitThunk [0x00007FF8013D259D+29]
+	RtlUserThreadStart [0x00007FF802B0AF38+40]
+</msg>
+<arg>(//i[@class='fa fa-angle-right'])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2024-12-31T17:12:50.678107" elapsed="1.822981">ElementClickInterceptedException: Message: element click intercepted: Element &lt;i class="fa fa-angle-right" style="font-weight: 600;color: black;opacity: 1.0;"&gt;&lt;/i&gt; is not clickable at point (692, 463). Other element would receive the click: &lt;div id="waitWave" class="waitWave" style="top: 0px; left: 0px; height: 100%; width: 1026px;"&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7DD16FB05+28789]
+	(No symbol) [0x00007FF7DD0D86E0]
+	(No symbol) [0x00007FF7DCF7592A]
+	(No symbol) [0x00007FF7DCFD0FDE]
+	(No symbol) [0x00007FF7DCFCEA7C]
+	(No symbol) [0x00007FF7DCFCBC46]
+	(No symbol) [0x00007FF7DCFCABA1]
+	(No symbol) [0x00007FF7DCFBCD60]
+	(No symbol) [0x00007FF7DCFEF43A]
+	(No symbol) [0x00007FF7DCFBC5B6]
+	(No symbol) [0x00007FF7DCFEF650]
+	(No symbol) [0x00007FF7DD00F654]
+	(No symbol) [0x00007FF7DCFEF1E3]
+	(No symbol) [0x00007FF7DCFBA938]
+	(No symbol) [0x00007FF7DCFBBAA1]
+	GetHandleVerifier [0x00007FF7DD4A933D+3410093]
+	GetHandleVerifier [0x00007FF7DD4BE7DD+3497293]
+	GetHandleVerifier [0x00007FF7DD4B2A73+3448803]
+	GetHandleVerifier [0x00007FF7DD237BBB+848171]
+	(No symbol) [0x00007FF7DD0E3C3F]
+	(No symbol) [0x00007FF7DD0DF6E4]
+	(No symbol) [0x00007FF7DD0DF87D]
+	(No symbol) [0x00007FF7DD0CED49]
+	BaseThreadInitThunk [0x00007FF8013D259D+29]
+	RtlUserThreadStart [0x00007FF802B0AF38+40]
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>20s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.501630" elapsed="0.000081"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<arg>window.scrollBy(0, 2000)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.501946" elapsed="0.000052"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.502192" elapsed="0.000050"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>(//span[@class='MuiButton-label'])[12]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.502439" elapsed="0.000048"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>7s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.502660" elapsed="0.000050"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath://span[text()='Need Help ']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.502895" elapsed="0.000046"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>20s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.503114" elapsed="0.000047"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.503339" elapsed="0.000046"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath://div[text()='Square Plaque Design']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.503568" elapsed="0.000045"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>7s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.503781" elapsed="0.000045"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath://div[text()='Cooling']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.504007" elapsed="0.000049"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>7s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.504252" elapsed="0.000056"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath://div[text()='Conference Room']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.504493" elapsed="0.000046"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>20s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-12-31T17:12:52.504707" elapsed="0.000049"/>
+</kw>
+<status status="FAIL" start="2024-12-31T17:12:50.677517" elapsed="1.827580">ElementClickInterceptedException: Message: element click intercepted: Element &lt;i class="fa fa-angle-right" style="font-weight: 600;color: black;opacity: 1.0;"&gt;&lt;/i&gt; is not clickable at point (692, 463). Other element would receive the click: &lt;div id="waitWave" class="waitWave" style="top: 0px; left: 0px; height: 100%; width: 1026px;"&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7DD16FB05+28789]
+	(No symbol) [0x00007FF7DD0D86E0]
+	(No symbol) [0x00007FF7DCF7592A]
+	(No symbol) [0x00007FF7DCFD0FDE]
+	(No symbol) [0x00007FF7DCFCEA7C]
+	(No symbol) [0x00007FF7DCFCBC46]
+	(No symbol) [0x00007FF7DCFCABA1]
+	(No symbol) [0x00007FF7DCFBCD60]
+	(No symbol) [0x00007FF7DCFEF43A]
+	(No symbol) [0x00007FF7DCFBC5B6]
+	(No symbol) [0x00007FF7DCFEF650]
+	(No symbol) [0x00007FF7DD00F654]
+	(No symbol) [0x00007FF7DCFEF1E3]
+	(No symbol) [0x00007FF7DCFBA938]
+	(No symbol) [0x00007FF7DCFBBAA1]
+	GetHandleVerifier [0x00007FF7DD4A933D+3410093]
+	GetHandleVerifier [0x00007FF7DD4BE7DD+3497293]
+	GetHandleVerifier [0x00007FF7DD4B2A73+3448803]
+	GetHandleVerifier [0x00007FF7DD237BBB+848171]
+	(No symbol) [0x00007FF7DD0E3C3F]
+	(No symbol) [0x00007FF7DD0DF6E4]
+	(No symbol) [0x00007FF7DD0DF87D]
+	(No symbol) [0x00007FF7DD0CED49]
+	BaseThreadInitThunk [0x00007FF8013D259D+29]
+	RtlUserThreadStart [0x00007FF802B0AF38+40]
+</status>
+</kw>
+<status status="FAIL" start="2024-12-31T17:12:50.676585" elapsed="1.829216">ElementClickInterceptedException: Message: element click intercepted: Element &lt;i class="fa fa-angle-right" style="font-weight: 600;color: black;opacity: 1.0;"&gt;&lt;/i&gt; is not clickable at point (692, 463). Other element would receive the click: &lt;div id="waitWave" class="waitWave" style="top: 0px; left: 0px; height: 100%; width: 1026px;"&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7DD16FB05+28789]
+	(No symbol) [0x00007FF7DD0D86E0]
+	(No symbol) [0x00007FF7DCF7592A]
+	(No symbol) [0x00007FF7DCFD0FDE]
+	(No symbol) [0x00007FF7DCFCEA7C]
+	(No symbol) [0x00007FF7DCFCBC46]
+	(No symbol) [0x00007FF7DCFCABA1]
+	(No symbol) [0x00007FF7DCFBCD60]
+	(No symbol) [0x00007FF7DCFEF43A]
+	(No symbol) [0x00007FF7DCFBC5B6]
+	(No symbol) [0x00007FF7DCFEF650]
+	(No symbol) [0x00007FF7DD00F654]
+	(No symbol) [0x00007FF7DCFEF1E3]
+	(No symbol) [0x00007FF7DCFBA938]
+	(No symbol) [0x00007FF7DCFBBAA1]
+	GetHandleVerifier [0x00007FF7DD4A933D+3410093]
+	GetHandleVerifier [0x00007FF7DD4BE7DD+3497293]
+	GetHandleVerifier [0x00007FF7DD4B2A73+3448803]
+	GetHandleVerifier [0x00007FF7DD237BBB+848171]
+	(No symbol) [0x00007FF7DD0E3C3F]
+	(No symbol) [0x00007FF7DD0DF6E4]
+	(No symbol) [0x00007FF7DD0DF87D]
+	(No symbol) [0x00007FF7DD0CED49]
+	BaseThreadInitThunk [0x00007FF8013D259D+29]
+	RtlUserThreadStart [0x00007FF802B0AF38+40]
+</status>
+</kw>
+<kw name="Click on the surface plots elements" owner="SurfacePlotsPage">
+<status status="NOT RUN" start="2024-12-31T17:12:52.506457" elapsed="0.000062"/>
+</kw>
+<kw name="wait until selected manikin text visible" owner="SurfacePlotsPage">
+<status status="NOT RUN" start="2024-12-31T17:12:52.506912" elapsed="0.000052"/>
+</kw>
+<kw name="Click on the color by dropdown" owner="SurfacePlotsPage">
+<status status="NOT RUN" start="2024-12-31T17:12:52.507247" elapsed="0.000045"/>
+</kw>
+<kw name="close browser session" owner="Generic" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-12-31T17:12:52.508081" elapsed="2.322398"/>
+</kw>
+<status status="PASS" start="2024-12-31T17:12:52.507704" elapsed="2.323078"/>
+</kw>
+<status status="FAIL" start="2024-12-31T17:12:43.304209" elapsed="11.526925">ElementClickInterceptedException: Message: element click intercepted: Element &lt;i class="fa fa-angle-right" style="font-weight: 600;color: black;opacity: 1.0;"&gt;&lt;/i&gt; is not clickable at point (692, 463). Other element would receive the click: &lt;div id="waitWave" class="waitWave" style="top: 0px; left: 0px; height: 100%; width: 1026px;"&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7DD16FB05+28789]
+	(No symbol) [0x00007FF7DD0D86E0]
+	(No symbol) [0x00007FF7DCF7592A]
+	(No symbol) [0x00007FF7DCFD0FDE]
+	(No symbol) [0x00007FF7DCFCEA7C]
+	(No symbol) [0x00007FF7DCFCBC46]
+	(No symbol) [0x00007FF7DCFCABA1]
+	(No symbol) [0x00007FF7DCFBCD60]
+	(No symbol) [0x00007FF7DCFEF43A]
+	(No symbol) [0x00007FF7DCFBC5B6]
+	(No symbol) [0x00007FF7DCFEF650]
+	(No symbol) [0x00007FF7DD00F654]
+	(No symbol) [0x00007FF7DCFEF1E3]
+	(No symbol) [0x00007FF7DCFBA938]
+	(No symbol) [0x00007FF7DCFBBAA1]
+	GetHandleVerifier [0x00007FF7DD4A933D+3410093]
+	GetHandleVerifier [0x00007FF7DD4BE7DD+3497293]
+	GetHandleVerifier [0x00007FF7DD4B2A73+3448803]
+	GetHandleVerifier [0x00007FF7DD237BBB+848171]
+	(No symbol) [0x00007FF7DD0E3C3F]
+	(No symbol) [0x00007FF7DD0DF6E4]
+	(No symbol) [0x00007FF7DD0DF87D]
+	(No symbol) [0x00007FF7DD0CED49]
+	BaseThreadInitThunk [0x00007FF8013D259D+29]
+	RtlUserThreadStart [0x00007FF802B0AF38+40]
+</status>
+</test>
+<doc>To Automate simulation gallary website by using POM</doc>
+<status status="FAIL" start="2024-12-31T17:12:42.828547" elapsed="12.004990"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="testMain">testMain</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

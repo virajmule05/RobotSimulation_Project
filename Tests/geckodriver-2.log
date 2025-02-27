@@ -1,0 +1,27 @@
+1735570923742	geckodriver	INFO	Listening on 127.0.0.1:53971
+1735570926765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53972" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofile5Ellyf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735570927067	Marionette	INFO	Marionette enabled
+1735570927217	Marionette	INFO	Listening on port 53988
+WebDriver BiDi listening on ws://127.0.0.1:53972
+Read port: 53988
+1735570927385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53972/devtools/browser/b7f3e030-ac00-4ed9-b414-a2e816b17a0e
+JavaScript error: https://webapp.simulationhub.com/1246de8ff99694e40f2cf9c3f12aa53636cf7e40.js, line 91: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://webapp.simulationhub.com/1246de8ff99694e40f2cf9c3f12aa53636cf7e40.js, line 91: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://webapp.simulationhub.com/1246de8ff99694e40f2cf9c3f12aa53636cf7e40.js, line 91: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1735570957080	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://webapp.simulationhub.com/1246de8ff99694e40f2cf9c3f12aa53636cf7e40.js, line 91: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://webapp.simulationhub.com/1246de8ff99694e40f2cf9c3f12aa53636cf7e40.js, line 91: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://webapp.simulationhub.com/1246de8ff99694e40f2cf9c3f12aa53636cf7e40.js, line 91: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://webapp.simulationhub.com/1246de8ff99694e40f2cf9c3f12aa53636cf7e40.js, line 91: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&l=dataLayer&cx=c&gtm=457e4cc1za200, line 671: Script terminated by timeout at:
+h.Wh@https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&l=dataLayer&cx=c&gtm=457e4cc1za200:671:487
+get@https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&l=dataLayer&cx=c&gtm=457e4cc1za200:670:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&l=dataLayer&cx=c&gtm=457e4cc1za200:670:87
+h.Bl/c/<@https://www.googletagmanager.com/gtag/js?id=G-02XSBG64YW&l=dataLayer&cx=c&gtm=457e4cc1za200:670:410
+
+1735571121794	Marionette	INFO	Stopped listening on port 53988
+Dynamically enable window occlusion 1
